@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="Syeda Alina's resume showcasing skills in web development including HTML, CSS, JavaScript, and TypeScript.">
+  <title>Editable Resume</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <div class="container"></div>
+
+  <header>
+    <h1 id="name" contenteditable="true">Syeda Alina</h1>
+    <p id="profession" contenteditable="true">Front-end Developer | Karachi, Pakistan</p>
+  </header>
+
+  <section class="objective">
+    <h2>Objective:</h2>
+    <p id="objective" contenteditable="true">"Aspiring web developer with a solid foundation in HTML, CSS, and JavaScript, 
+      currently enhancing my skills in TypeScript and Next.js through online courses. <br>
+      Eager to contribute to innovative web projects and grow in a collaborative environment."</p>
+  </section> 
+
+  <div class="resume-container">
+    <div class="left-side">
+      <section class="contact-section">
+        <h2>Contact Details:</h2>
+        <p id="phone" contenteditable="true">Phone: 0340-3538006</p>
+        <p id="email" contenteditable="true">Email: awhngsu2689@gmail.com</p>
+      </section>
+
+      <section class="education">
+        <h2>Education:</h2>
+        <p id="education" contenteditable="true">Green Flag School, Karachi<br>Completed 10th Grade with Grade A.<br>2024</p>
+      </section> 
+
+      <section class="skills">
+        <h2>Skills:</h2>
+        <h3>Languages</h3>
+        <ul id="skills" contenteditable="true">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>Responsive Web Design</li>
+        </ul>
+      </section>
+
+      <section class="projects">
+        <h2>Projects:</h2>
+        <ul id="projects" contenteditable="true">
+          <li>Rock-Paper-Scissors Game</li>
+          <li>Tic-Tac-Toe</li>
+          <li>Currency Converter</li>
+          <li>AI Image Generator</li>
+        </ul>
+      </section>
+    </div>
+
+    <div class="divider"></div> 
+
+    <div class="right-side">
+      <section class="Quizzes-section">
+        <h2>Certifications & Quizzes:</h2>
+        <p id="quizzes" contenteditable="true">Governor House Web Development Quiz: Passed<br>Various Online Quizzes: Completed multiple quizzes to test and enhance web development skills.</p>
+      </section>
+
+      <section class="information">
+        <h2>Additional Information:</h2>
+        <p id="linkedin" contenteditable="true">LinkedIn: <a href="https://www.linkedin.com/in/syeda-alina-30363a2b7" target="_blank">Connect With Me On LinkedIn</a></p>
+        <p id="github" contenteditable="true">Github: <a href="https://www.github.com/Alina710" target="_blank">Check Out My Github Repository</a></p>
+      </section>
+
+      <section class="work">
+        <button id="toggleWorkExperience">Show Work Experience</button>
+        <div id="workExperience" style="display: none;">
+          <h2>Work Experience</h2>
+          <h3 contenteditable="true">UI/UX Designer Intern</h3>
+          <p contenteditable="true">XYZ Company (3 months)</p>
+          <ul contenteditable="true">
+            <li>Designed wireframes and prototypes for web and mobile.</li>
+            <li>Conducted user research and usability tests.</li>
+            <li>Improved product designs for better user experience.</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="msg">
+    <p contenteditable="true">"Thank you for considering my application. I look forward to the opportunity to contribute to your team."</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
